@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_technologies_banner_item_technologies_banner_items",
+  "info": {
+    "displayName": "Technologies Banner Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "work": {
+      "type": "string"
+    }
+  }
+}

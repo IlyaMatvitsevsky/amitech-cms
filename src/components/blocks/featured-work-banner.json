@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_featured_work_banners",
+  "info": {
+    "displayName": "Featured Work Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "Featured Work Banner Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "featured-work-banner-item.featured-work-banner-item"
+    }
+  }
+}

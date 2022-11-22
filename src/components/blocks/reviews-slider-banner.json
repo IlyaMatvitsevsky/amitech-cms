@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_reviews_slider_banners",
+  "info": {
+    "displayName": "Reviews Slider Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reviews-slider-item.reviews-slider-item"
+    }
+  }
+}

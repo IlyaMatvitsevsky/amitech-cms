@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_technologies_banners",
+  "info": {
+    "displayName": "Technologies Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "technologies-banner-item.technologies-banner-item"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_blocks_organization_banners",
+  "info": {
+    "displayName": "Organization Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list"
+    }
+  }
+}

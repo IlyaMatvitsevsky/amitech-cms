@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_reviews_slider_item_reviews_slider_items",
+  "info": {
+    "displayName": "Reviews Slider Item"
+  },
+  "options": {},
+  "attributes": {
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "text"
+    },
+    "user": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    }
+  }
+}

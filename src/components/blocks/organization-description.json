@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_blocks_organization_descriptions",
+  "info": {
+    "displayName": "Organization Description"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_our_offers_banners",
+  "info": {
+    "displayName": "Our Offers Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "Our Offers Banner Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "our-offers-banner-item.our-offers-banner-item"
+    }
+  }
+}
