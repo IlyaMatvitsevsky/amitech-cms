@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_contact_info_banners",
+  "info": {
+    "displayName": "Contact Info Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "Contact Info Item1",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-info-item.contact-info-item1"
+    }
+  }
+}

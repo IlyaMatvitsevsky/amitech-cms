@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_engagement_models",
+  "info": {
+    "displayName": "Engagement Model Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services-banner-item.service-banner-selector-item"
+    }
+  }
+}

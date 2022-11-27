@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_code_of_conduct_banners",
+  "info": {
+    "displayName": "Code of Conduct Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list"
+    }
+  }
+}
