@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "works",
+  "info": {
+    "singularName": "work",
+    "pluralName": "works",
+    "displayName": "Work",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "aboutWork": {
+      "displayName": "About Work",
+      "type": "component",
+      "repeatable": false,
+      "component": "work.about-work"
+    },
+    "contactUsBanner": {
+      "displayName": "Contact Us Banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "work.contact-us-banner"
+    },
+    "workBanner": {
+      "displayName": "Work Banner",
+      "type": "component",
+      "repeatable": true,
+      "component": "work.work-banner"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_work_contact_us_banners",
+  "info": {
+    "displayName": "Contact Us Banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

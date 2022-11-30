@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_work_work_banners",
+  "info": {
+    "displayName": "Work Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "technologies-banner-item.technologies-banner-item"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
